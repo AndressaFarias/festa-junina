@@ -1,0 +1,30 @@
+{
+  "dishes": [
+    { "name": "Mocotó", "people": [] },
+    { "name": "Buraco quente", "people": [] },
+    { "name": "Cachorro quente", "people": [] },
+    { "name": "Pastel", "people": [] },
+    { "name": "Arroz de leite", "people": [] },
+    { "name": "Sagu", "people": [] },
+    { "name": "Bolo de milho", "people": [] },
+    { "name": "Bolo de cenoura", "people": [] },
+    { "name": "Cocada", "people": [] },
+    { "name": "Pé de moleque", "people": [] },
+    { "name": "Paçoca", "people": [] },
+    { "name": "Canjica", "people": [] },
+    { "name": "Chocolate quente", "people": [] },
+    { "name": "Quentão", "people": [] },
+    { "name": "Pipoca doce", "people": [] },
+    { "name": "Pipoca salgada", "people": [] },
+    { "name": "Pinhão", "people": [] },
+    { "name": "Caldinho de feijão", "people": [] },
+    { "name": "Milho verde", "people": [] },
+    { "name": "Refrigerante 🥤 (1)", "people": [] },
+    { "name": "Refrigerante 🥤 (2)", "people": [] },
+    { "name": "Refrigerante 🥤 (3)", "people": [] },
+    { "name": "Refrigerante 🥤 (4)", "people": [] },
+    { "name": "Refrigerante 🥤 (5)", "people": [] }
+  ],
+  "lastUpdated": null,
+  "updatedBy": null
+}
