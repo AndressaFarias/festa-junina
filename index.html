@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>🎉 Festa Junina da Família</title>
+  <title>🎉 Festa Junina da Família Farias e Oliveira</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <style>
@@ -439,8 +439,9 @@
 
   <!-- Header -->
   <header>
-    <h1>🌽 Festa Junina da Família</h1>
-    <p>Organização dos pratos — quem vai levar o quê</p>
+    <h1>🌽 Festa Junina da Família<br>Farias e Oliveira</h1>
+    <p style="margin-top:10px;font-size:1rem;opacity:.9;">📅 29 de maio &nbsp;•&nbsp; 17h00 &nbsp;•&nbsp; 🏠 Casa de Mari e Norberto</p>
+    <p style="margin-top:4px;opacity:.65;font-size:.85rem;">Organização dos pratos — quem vai levar o quê</p>
   </header>
 
   <main>
@@ -514,21 +515,27 @@
   <div class="toast" id="toast"></div>
 
 <script>
-const MAX_ITEMS = 20;
+const MAX_ITEMS = 34;
 const STORAGE_KEY = 'festaJunina2026';
 const FLAG_COLORS = ['#d62828','#f7b731','#20a051','#1565c0','#f4631e','#7b2d8b'];
 const DISH_EMOJIS = {
   'milho': '🌽', 'pamonha': '🌽', 'canjica': '🥣', 'curau': '🥣',
   'bolo': '🎂', 'pé de moleque': '🍬', 'cocada': '🥥', 'cuscuz': '🍚',
-  'arroz': '🍚', 'quentão': '🍵', 'refrigerante': '🥤', 'pipoca': '🍿',
-  'churros': '🥐', 'tapioca': '🫓', 'doce': '🍬', 'frango': '🍗',
-  'salgado': '🥙', 'pão': '🍞', 'carne': '🥩', 'salada': '🥗',
+  'arroz': '🍚', 'quentão': '🍵', 'pipoca': '🍿', 'tapioca': '🫓',
+  'doce': '🍬', 'frango': '🍗', 'salgado': '🥙', 'salada': '🥗',
+  'mocotó': '🍲', 'buraco': '🌭', 'cachorro': '🌭', 'pastel': '🥟',
+  'sagu': '🫐', 'paçoca': '🍬', 'chocolate': '☕', 'pinhão': '🌰',
+  'caldinho': '🍜', 'feijão': '🫘', 'cenoura': '🥕',
 };
 
 const defaultDishes = [
-  'Milho cozido', 'Pamonha', 'Canjica', 'Bolo de milho',
-  'Bolo de fubá', 'Pé de moleque', 'Cocada', 'Quentão',
-  'Refrigerante', 'Pipoca',
+  'Mocotó', 'Buraco quente', 'Cachorro quente', 'Pastel',
+  'Arroz de leite', 'Sagu', 'Bolo de milho', 'Bolo de cenoura',
+  'Cocada', 'Pé de moleque', 'Paçoca', 'Canjica',
+  'Chocolate quente', 'Quentão', 'Pipoca doce', 'Pipoca salgada',
+  'Pinhão', 'Caldinho de feijão', 'Milho verde',
+  'Refrigerante 🥤 (1)', 'Refrigerante 🥤 (2)', 'Refrigerante 🥤 (3)',
+  'Refrigerante 🥤 (4)', 'Refrigerante 🥤 (5)',
 ];
 
 let state = {
