@@ -36,7 +36,9 @@
     },
     {
       "name": "Cocada",
-      "people": []
+      "people": [
+        "andressa"
+      ]
     },
     {
       "name": "Pé de moleque",
@@ -99,6 +101,6 @@
       "people": []
     }
   ],
-  "lastUpdated": "2026-05-29T22:26:37.023Z",
-  "updatedBy": "Andressa"
+  "lastUpdated": "2026-05-29T22:26:47.074Z",
+  "updatedBy": "andressa"
 }
